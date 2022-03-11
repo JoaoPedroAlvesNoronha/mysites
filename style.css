@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'beck';
+    src: url(beckman-free.ttf);
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: white;
+}
+#logo{
+    background-color: #071013;
+    height: 30vh;
+    max-width: 100%;
+    min-width: 100%;
+
+    position: relative;
+}
+h1{
+   position: absolute;
+    
+    font-family: 'beck';
+    text-align: center;
+    margin: auto;
+    padding: 0%;
+    color: #1985A1;
+    font-size: 400%;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h2{
+    text-align: center;
+    
+}
+h3{
+    margin-left: 1.5%;
+}
+#andr{
+    margin-left: 1.5%;
+    height: 30vh;
+    width: 40vh;
+    border-radius: 100px;
+   
+}
+#andr{position:relative}
+#andr:hover{top:-2px;box-shadow:0 2px 2px #666}
