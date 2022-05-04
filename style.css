@@ -9,20 +9,49 @@ body{
     padding: 0%;
     background-color: white;
 }
+
 #logo{
     background-color: #071013;
-    height: 30vh;
+    padding: 0%;
+    margin-top: 0%;
+    min-height: 31vh;
     max-width: 100%;
     min-width: 100%;
 
     position: relative;
 }
-h1{
-   position: absolute;
+
+
+#butt{
+
+    border: #071013;
+    margin: 1%;
+    padding: 10px;
+}
+#p{
+    display: inline;
+
+    position: absolute;
     
     font-family: 'beck';
     text-align: center;
     margin: auto;
+    padding: 0%;
+    color: #1985A1;
+    font-size: 100%;
+    max-height: 150%; 
+    min-height: 10%;
+
+    top: 91%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#h1{
+    position: absolute;
+    
+    font-family: 'beck';
+    text-align: center;
+    margin: 0%;
     padding: 0%;
     color: #1985A1;
     font-size: 400%;
@@ -32,19 +61,24 @@ h1{
     transform: translate(-50%, -50%);
 }
 
-h2{
-    text-align: center;
+#card1{
+    display: inline-block;
+    border-radius: 20px;
+    margin: 5vh;
+    margin-left: 14vh;
+    
     
 }
-h3{
-    margin-left: 1.5%;
+#card2{
+    display: inline-block;
+    border-radius: 20px;
+    margin: 5vh;
+    margin-left: 14vh;
+    
+    
 }
-#andr{
-    margin-left: 1.5%;
-    height: 30vh;
-    width: 40vh;
-    border-radius: 100px;
-   
+
+.card:hover{
+    top:-2px;border-bottom:2px solid #999
 }
-#andr{position:relative}
-#andr:hover{top:-2px;box-shadow:0 2px 2px #666}
+
