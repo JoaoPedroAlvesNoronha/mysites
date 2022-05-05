@@ -8,6 +8,7 @@ body{
     margin: 2px;
     padding: 0%;
     background-color: white;
+
 }
 
 #logo{
@@ -46,11 +47,7 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
 }
-#divh1{
-    
 
-   
-}
 #h1{
     position: absolute;
     
@@ -68,11 +65,19 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+.top-p{
+    color: black;
+    text-align: center;
+    margin: 0%;
+    margin-bottom: 2vh;
+}
+
 
 #card1{
     display: inline-block;
     border-radius: 20px;
-    margin-left: 80px;
+    margin: 5vh;
+    margin-left: 15vh;
     margin-right: 0%;
     
     
@@ -81,7 +86,7 @@ body{
     display: inline-block;
     border-radius: 20px;
     margin: 5vh;
-    margin-left: 80px;
+    margin-left: 15vh;
     margin-right: 0%;
     
     
@@ -90,4 +95,10 @@ body{
 .card:hover{
     top:-2px;border-bottom:2px solid #999
 }
+.card-img-top:hover{
+    border-radius: 10px;
+    top:-2px;border-bottom:2px solid #999
+}
+
+
 
