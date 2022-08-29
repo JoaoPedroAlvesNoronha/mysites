@@ -45,7 +45,7 @@ body{
 
     top: 91%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-500%, -500%);
 }
 
 #h1{
@@ -72,7 +72,11 @@ body{
     margin-bottom: 2vh;
 }
 
-
+.pesquisa{
+    width: 400px;
+    height: 40px;
+    margin: 0px auto;
+}
 #card1{
     display: inline-block;
     border-radius: 20px;
