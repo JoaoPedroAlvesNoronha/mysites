@@ -78,7 +78,7 @@ body, html{
 
 #about2{
     text-align: center;
-    padding-top: -5%;
+    padding-top: -10%;
     padding: 5%;
     color: black;
     background-color: #1480ba00;
@@ -94,6 +94,7 @@ body, html{
     height: 100%;
     justify-content: center;
     align-items: center;
+   
     
     padding: 5%;
 
@@ -104,7 +105,6 @@ body, html{
 }
 .child{
     margin-bottom: 20px;
- 
    
 }
 
@@ -154,4 +154,15 @@ body, html{
      width: 200px;
     }
     
+}
+.cimgs1{
+    width: 300px;
+    height: 20px;
+
+}
+.cimgs{
+   
+   
+   flex-direction: column;
+   flex-wrap:wrap;
 }
